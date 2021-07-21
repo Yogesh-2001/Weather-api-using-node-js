@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.main-div{
+    display: block;
+    width: 500px;
+    height: 600px;
+    border-radius: 50px;
+    background-image: linear-gradient(red, yellow);
+    margin: 20px auto;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.19);
+    background-image: url('https://www.wallpapertip.com/wmimgs/26-263965_cumulus.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.weather{
+   margin-top: 10px; 
+}
+
+.main-div h1{
+    text-align: center;
+    padding-top: 30px;
+    text-shadow: 2px 1px 3px red;
+    font-size:40px;
+    color:rgb(94, 250, 4);
+}
+.main-div p{
+    display: flex;
+    font-size:30px;
+    margin: 20vh 30%;
+}
+.search input{
+    display: block;
+   width:25vw;
+   height: 5vh;
+   margin: auto;
+   border-radius: 20px 20px;
+   font-size: large;
+   text-align: center;
+   border: 1px solid aquamarine;
+}
+.content{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+    line-height: 2;
+    
+}
+.content h1{
+    color:white;
+    margin: auto;
+
+}
